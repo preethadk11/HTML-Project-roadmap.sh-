@@ -1,0 +1,18 @@
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 220px;
+    background-color: lightblue;
+    /*transform: translate(50px,50px);*/
+    /*transform: rotateY(360deg);*/
+    /*transform: rotateZ(360deg);*/
+    /*transform: scale(2,1.8);*/
+    /*transform: skewY(60deg);*/
+    
+}
+/*#box1:hover{
+   transform: rotateY(360deg);
+   transition: transform 1s ease-in-out;
+}*/

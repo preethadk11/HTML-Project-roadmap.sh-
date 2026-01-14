@@ -1,0 +1,27 @@
+a:link{
+      color: green;
+}
+a:visited{
+    color: peru;
+}
+a:hover{
+    color: pink;
+}
+a:active{
+    color: red;
+}
+button:active{
+    background-color: white;
+    
+}
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 16px;
+}
+li:nth-child(even){
+    background-color: skyblue;
+}
+li:nth-child(odd){
+    background-color: lightskyblue;
+}

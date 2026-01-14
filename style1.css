@@ -1,0 +1,27 @@
+body{
+    background-color: #000;
+}
+h1{
+    font-family: 'Honk',sans-serif;
+    font-size: 50px;
+    
+    border-left-style: dashed;
+    border-left-color: blue;
+    border-right-style: dashed;
+    border-right-color: blue;
+    border-bottom-width: 2px;
+    padding: 5px;
+}
+p{
+    font-family: Grenze Gotisch, serif;
+    color: rgb(6, 253, 109);
+    font-size: 30px;
+    font-weight: bold;;
+    font-style: italic;
+    text-decoration: dotted underline;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    border-color: rgb(255, 255, 0);
+    border-radius: 10px;
+}

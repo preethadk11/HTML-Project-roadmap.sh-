@@ -1,0 +1,85 @@
+body{
+    background:black;
+    
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    height: 100vh;
+    width: 100vh;
+    
+}
+.scene{
+    
+    perspective: 800px;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background: rgb(201, 8, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    
+
+   transition: transform 4.9s;
+   
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background: rgb(201, 8, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    
+
+   transition: transform 4.9s;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background: rgb(201, 8, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    
+    
+
+
+   transition: transform 4.9s;
+   
+}
+.box4{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background: rgb(201, 8, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    align-self: center;
+    
+
+
+   transition: transform 4.9s;
+}
+.box1:hover{
+    transform: rotateY(180deg);
+}
+.box2:hover{
+    transform: rotateX(180deg);
+}
+.box3:hover{
+    transform: rotateY(180deg);
+}
